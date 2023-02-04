@@ -104,10 +104,6 @@ nav {
     line-height: 1.5rem;
 }
 
-.metricas-container {
-    margin-right: 30px;
-}
-
 /* Secao talentos */
 
 .talentos {
@@ -172,4 +168,40 @@ nav {
 
 .vaga__info span {
     margin-right: 10px;
+}
+
+/* Secao de depoimentos */
+
+.depoimentos {
+    margin-top: 8%;
+    text-align: center;
+    background-color: rgba(195, 25, 25, 0.04);
+    border-radius: 12px;
+    padding: 60px 0;
+}
+
+.depoimentos span {
+    color: var(--vermelho-principal);
+    font-weight: 600;
+}
+
+.depoimentos__comentario {
+    margin: 30px 0;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+#depoimentos__img {
+    margin-top: 10px;
+}
+
+.depoimentos__nome {
+    margin: 17px 0 10px 0;
+    font-weight: 500;
+}
+
+.depoimentos__profissao {
+    color: var(--cinza-principal);
 }

@@ -205,3 +205,43 @@ nav {
 .depoimentos__profissao {
     color: var(--cinza-principal);
 }
+
+/* Footer */
+
+.rodape {
+    margin: 10% -110px 0 -110px;
+    background-color: rgba(195, 25, 25, 0.02);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.rodape__titulo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape__info {
+    margin: 40px 0;
+    font-size: 20px;
+    color: var(--cinza-principal);
+}
+
+#email {
+    box-sizing: border-box;
+    /* height: 44px; */
+    padding: 14px;
+    width: 370px;
+    border-radius: 8px;
+    border: 2px solid rgba(102, 112, 133, .1);
+    margin-right: 10px;
+}
+
+.formulario {
+    margin-bottom: 40px;
+}
+
+.rodape__copy-info {
+    color: #98A2B3;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
